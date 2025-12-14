@@ -17,6 +17,8 @@ including core generative models and VAR-based applications.
 | **Infinity** | 2024-12-05 | CVPR 2025 | [GitHub](https://github.com/FoundationVision/Infinity) | Core AR Model | Bitwise autoregressive modeling for high-res images |
 | **Switti** | 2024-12-05 | CVPR 2025 | [GitHub](https://github.com/yandex-research/switti) | Core AR Model | Scale-wise transformer for text-to-image |
 
+| **Name** | **Date** | **Status / Conference** | **Link** | **Scope** | **Brief Description** |
+|---------|---------|------------------------|---------|-----------|-----------------------|
 | **VARGPT** | 2025-01-21 | arXiv | [GitHub](https://github.com/VARGPT-family/VARGPT) | Multimodal VAR | Unified multimodal understanding & generation |
 | **VARGPT-v1.1** | 2025-04-03 | arXiv | [GitHub](https://github.com/VARGPT-family/VARGPT-v1.1) | Multimodal VAR | Instruction tuning & RL for VAR-GPT |
 | **GFT** | 2025-01-26 | ICML 2025 | [GitHub](https://github.com/thu-ml/GFT) | Training Strategy | Guidance-free visual generation |
@@ -24,6 +26,8 @@ including core generative models and VAR-based applications.
 | **Distilled Decoding** | 2024-12-22 | ICLR 2025 | [GitHub](https://github.com/imagination-research/distilled-decoding) | Sampling | One-step AR sampling via flow matching |
 | **FlowAR** | 2024-12-19 | arXiv | [GitHub](https://github.com/OliverRensu/FlowAR) | Sampling | Scale-wise AR meets flow matching |
 
+| **Name** | **Date** | **Status / Conference** | **Link** | **Scope** | **Brief Description** |
+|---------|---------|------------------------|---------|-----------|-----------------------|
 | **AREdit** | 2025-03-31 | arXiv | [GitHub](https://github.com/wyf0912/AREdit) | Image Editing | Training-free text-guided editing |
 | **ArchonView** | 2025-03-17 | arXiv | [GitHub](https://github.com/Shiran-Yuan/ArchonView) | View Synthesis | Zero-shot single-image novel view |
 | **Safe-VAR** | 2025-03-14 | arXiv | [arXiv](https://arxiv.org/abs/2503.11324) | Watermarking | Safe text-to-image VAR |
