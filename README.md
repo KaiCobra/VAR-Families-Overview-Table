@@ -1,40 +1,47 @@
 # VAR Families Overview Table
 This table summarizes third-party usage and research projects in the Visual Autoregressive Modeling (VAR) series, including project names, dates, GitHub links, conference information, and brief descriptions of features or tasks.
+# VAR Families Overview Table
 
-| **Name** | **Date** | **Conference** | **GitHub/Link** | **Brief Description** | 
-|---------|---------|----------------|----------------------------- |
-| **MVAR** | 2025-05-19 | ICLR(Under review) | [GitHub](https://github.com/LabShuHangGU/MVAR) | MVAR: Visual Autoregressive Modeling with Scale and Spatial Markovian Conditioning |
-| **EAR** | 2025-05-12 | ICML 2025 | [GitHub](https://github.com/shaochenze/EAR) | Continuous Visual Autoregressive Generation via Score Maximization |
-| **FedGAT** | 2025-05-08 | - | [GitHub](https://github.com/icon-lab/FedGAT) | Generative Autoregressive Transformers for Model-Agnostic Federated MRI Reconstruction |
-| **FastVAR** | 2025-04-07 | - | [GitHub](https://github.com/csguoh/FastVAR) | Linear Visual Autoregressive Modeling via Cached Token Pruning |
-| **VARGPT-v1.1** | 2025-04-03 | - | [GitHub](https://github.com/VARGPT-family/VARGPT-v1.1) | Improve Visual Autoregressive Large Unified Model via Iterative Instruction Tuning and Reinforcement Learning |
-| **AREdit** | 2025-03-31 | - | [GitHub](https://github.com/wyf0912/AREdit) | Training-Free Text-Guided Image Editing with Visual Autoregressive Model |
-| **ArchonView** | 2025-03-17 | - | [GitHub](https://github.com/Shiran-Yuan/ArchonView) | Next-Scale Autoregressive Models are Zero-Shot Single-Image Object View Synthesizers |
-| **Safe-VAR** | 2025-03-14 | - | [arXiv](https://arxiv.org/abs/2503.11324) | Safe Visual Autoregressive Model for Text-to-Image Generative Watermarking |
-| **DDO** | 2025-03-03 | ICML 2025 | [NVIDIA Research](https://research.nvidia.com/labs/dir/ddo/) | Direct Discriminative Optimization: Your Likelihood-Based Visual Generative Model is Secretly a GAN Discriminator |
-| **Medical Image Segmentation** | 2025-02-28 | - | [arXiv](https://arxiv.org/abs/2502.20784) | Autoregressive Medical Image Segmentation via Next-Scale Mask Prediction |
-| **FlexVAR** | 2025-02-27 | - | [GitHub](https://github.com/jiaosiyu1999/FlexVAR) | Flexible Visual Autoregressive Modeling without Residual Prediction |
-| **MARS** | 2025-02-17 | - | [arXiv](https://arxiv.org/abs/2502.11390) | Mesh AutoRegressive Model for 3D Shape Detailization |
-| **VARSR** | 2025-01-31 | ICML 2025 | [GitHub](https://github.com/quyp2000/VARSR) | Visual Autoregressive Modeling for Image Super-Resolution |
-| **VARGPT** | 2025-01-21 | - | [GitHub](https://github.com/VARGPT-family/VARGPT) | Unified Understanding and Generation in a Visual Autoregressive Multimodal Large Language Model |
-| **GFT** | 2025-01-26 | ICML 2025 | [GitHub](https://github.com/thu-ml/GFT) | Visual Generation Without Guidance |
-| **Awesome-Multimodal-NTP** | 2024-12-30 | - | [GitHub](https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction) | Next Token Prediction Towards Multimodal Intelligence |
-| **Varformer** | 2024-12-30 | - | [arXiv](https://arxiv.org/abs/2412.21063) | Adapting VAR's Generative Prior for Image Restoration |
-| **Distilled Decoding** | 2024-12-22 | ICLR 2025 | [GitHub](https://github.com/imagination-research/distilled-decoding) | One-step Sampling of Image Auto-regressive Models with Flow Matching |
-| **FlowAR** | 2024-12-19 | - | [GitHub](https://github.com/OliverRensu/FlowAR) | Scale-wise Autoregressive Image Generation Meets Flow Matching |
-| **VAT** | 2024-12-13 | - | [GitHub](https://github.com/sparse-mvs-2/VAT) | 3D representation in 512-Byte: Variational tokenizer is the key for autoregressive 3D generation |
-| **CARP** | 2024-12-09 | - | [Website](https://carp-robot.github.io/) | Visuomotor Policy Learning via Coarse-to-Fine Autoregressive Prediction |
-| **Infinity** | 2024-12-05 | CVPR 2025 | [GitHub](https://github.com/FoundationVision/Infinity) | Scaling Bitwise AutoRegressive Modeling for High-Resolution Image Synthesis |
-| **Switti** | 2024-12-05 | CVPR 2025 | [GitHub](https://github.com/yandex-research/switti) | Designing Scale-Wise Transformers for Text-to-Image Synthesis |
-| **TokenFlow** | 2024-12-04 | CVPR 2025 | [GitHub](https://github.com/ByteFlow-AI/TokenFlow) | Unified Image Tokenizer for Multimodal Understanding and Generation |
-| **XQ-GAN** | 2024-12-03 | - | [GitHub](https://github.com/lxa9867/ImageFolder) | An Open-source Image Tokenization Framework for Autoregressive Generation |
-| **CoDe** | 2024-11-28 | CVPR 2025 | [GitHub](https://github.com/czg1225/CoDe) | Collaborative Decoding Makes Visual Auto-Regressive Modeling Efficient |
-| **Scalable AR Depth** | 2024-11-28 | CVPR 2025 | [arXiv](https://arxiv.org/abs/2411.11361) | Scalable Autoregressive Monocular Depth Estimation |
-| **SAR3D** | 2024-11-27 | CVPR 2025 | [GitHub](https://github.com/cyw-3d/SAR3D) | Autoregressive 3D Object Generation and Understanding via Multi-scale 3D VQVAE |
-| **LiteVAR** | 2024-11-26 | - | [arXiv](https://arxiv.org/abs/2411.17178) | Compressing Visual Autoregressive Modelling with Efficient Attention and Quantization |
-| **M-VAR** | 2024-11-15 | - | [GitHub](https://github.com/OliverRensu/MVAR) | Decoupled Scale-wise Autoregressive Modeling for High-Quality Image Generation |
-| **HART** | 2024-10-14 | ICLR 2025 | [GitHub](https://github.com/mit-han-lab/hart) | Efficient Visual Generation with Hybrid Autoregressive Transformer |
-| **CCA** | 2024-10-12 | ICLR 2025 Oral | [GitHub](https://github.com/thu-ml/CCA) | Toward Guidance-Free AR Visual Generation via Condition Contrastive Alignment |
+This table summarizes research projects related to Visual Autoregressive Modeling (VAR),
+including core generative models and VAR-based applications.
+
+| **Name** | **Date** | **Status / Conference** | **Link** | **Scope** | **Brief Description** |
+|---------|---------|------------------------|---------|-----------|-----------------------|
+| **MVAR** | 2025-05-19 | ICLR 2026 (under review) | [GitHub](https://github.com/LabShuHangGU/MVAR) | Core VAR Model | Scale & spatial Markovian conditioning for efficient VAR |
+| **EAR** | 2025-05-12 | ICML 2025 | [GitHub](https://github.com/shaochenze/EAR) | Core VAR Model | Continuous VAR via score maximization |
+| **FastVAR** | 2025-04-07 | arXiv | [GitHub](https://github.com/csguoh/FastVAR) | Core VAR Model | Cached token pruning for linear-time VAR |
+| **FlexVAR** | 2025-02-27 | arXiv | [GitHub](https://github.com/jiaosiyu1999/FlexVAR) | Core VAR Model | VAR without residual prediction |
+| **M-VAR** | 2024-11-15 | arXiv | [GitHub](https://github.com/OliverRensu/MVAR) | Core VAR Model | Decoupled scale-wise autoregressive modeling |
+| **LiteVAR** | 2024-11-26 | arXiv | [arXiv](https://arxiv.org/abs/2411.17178) | Core VAR Model | Efficient attention & quantization for VAR compression |
+| **HART** | 2024-10-14 | ICLR 2025 | [GitHub](https://github.com/mit-han-lab/hart) | Core VAR Model | Hybrid discrete-continuous autoregressive transformer |
+| **Infinity** | 2024-12-05 | CVPR 2025 | [GitHub](https://github.com/FoundationVision/Infinity) | Core AR Model | Bitwise autoregressive modeling for high-res images |
+| **Switti** | 2024-12-05 | CVPR 2025 | [GitHub](https://github.com/yandex-research/switti) | Core AR Model | Scale-wise transformer for text-to-image |
+
+| **VARGPT** | 2025-01-21 | arXiv | [GitHub](https://github.com/VARGPT-family/VARGPT) | Multimodal VAR | Unified multimodal understanding & generation |
+| **VARGPT-v1.1** | 2025-04-03 | arXiv | [GitHub](https://github.com/VARGPT-family/VARGPT-v1.1) | Multimodal VAR | Instruction tuning & RL for VAR-GPT |
+| **GFT** | 2025-01-26 | ICML 2025 | [GitHub](https://github.com/thu-ml/GFT) | Training Strategy | Guidance-free visual generation |
+| **CCA** | 2024-10-12 | ICLR 2025 (Oral) | [GitHub](https://github.com/thu-ml/CCA) | Training Strategy | Condition contrastive alignment for AR generation |
+| **Distilled Decoding** | 2024-12-22 | ICLR 2025 | [GitHub](https://github.com/imagination-research/distilled-decoding) | Sampling | One-step AR sampling via flow matching |
+| **FlowAR** | 2024-12-19 | arXiv | [GitHub](https://github.com/OliverRensu/FlowAR) | Sampling | Scale-wise AR meets flow matching |
+
+| **AREdit** | 2025-03-31 | arXiv | [GitHub](https://github.com/wyf0912/AREdit) | Image Editing | Training-free text-guided editing |
+| **ArchonView** | 2025-03-17 | arXiv | [GitHub](https://github.com/Shiran-Yuan/ArchonView) | View Synthesis | Zero-shot single-image novel view |
+| **Safe-VAR** | 2025-03-14 | arXiv | [arXiv](https://arxiv.org/abs/2503.11324) | Watermarking | Safe text-to-image VAR |
+| **VARSR** | 2025-01-31 | ICML 2025 | [GitHub](https://github.com/quyp2000/VARSR) | Super-Resolution | VAR for image SR |
+| **Varformer** | 2024-12-30 | arXiv | [arXiv](https://arxiv.org/abs/2412.21063) | Restoration | VAR prior for restoration |
+| **Medical Image Segmentation** | 2025-02-28 | arXiv | [arXiv](https://arxiv.org/abs/2502.20784) | Medical Imaging | Next-scale mask prediction |
+| **FedGAT** | 2025-05-08 | arXiv | [GitHub](https://github.com/icon-lab/FedGAT) | Medical Imaging | Federated MRI reconstruction |
+| **MARS** | 2025-02-17 | arXiv | [arXiv](https://arxiv.org/abs/2502.11390) | 3D Generation | Mesh autoregressive detailization |
+| **SAR3D** | 2024-11-27 | CVPR 2025 | [GitHub](https://github.com/cyw-3d/SAR3D) | 3D Generation | Multi-scale 3D VQVAE |
+| **VAT** | 2024-12-13 | arXiv | [GitHub](https://github.com/sparse-mvs-2/VAT) | 3D Generation | Variational tokenizer for AR 3D |
+| **CARP** | 2024-12-09 | arXiv | [Website](https://carp-robot.github.io/) | Robotics | Coarse-to-fine visuomotor AR |
+| **TokenFlow** | 2024-12-04 | CVPR 2025 | [GitHub](https://github.com/ByteFlow-AI/TokenFlow) | Tokenizer | Unified image tokenizer |
+| **XQ-GAN** | 2024-12-03 | arXiv | [GitHub](https://github.com/lxa9867/ImageFolder) | Tokenizer | Open-source image tokenization |
+| **CoDe** | 2024-11-28 | CVPR 2025 | [GitHub](https://github.com/czg1225/CoDe) | Decoding | Collaborative decoding for VAR |
+| **Scalable AR Depth** | 2024-11-28 | CVPR 2025 | [arXiv](https://arxiv.org/abs/2411.11361) | Depth Estimation | Autoregressive monocular depth |
+| **DDO** | 2025-03-03 | ICML 2025 | [NVIDIA](https://research.nvidia.com/labs/dir/ddo/) | Training Objective | Discriminative optimization for generative models |
+| **Awesome-Multimodal-NTP** | 2024-12-30 | arXiv | [GitHub](https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction) | Survey | Multimodal NTP resources |
+
 
 ---
 
