@@ -1,7 +1,7 @@
 # VAR Families Overview Table
 This table summarizes third-party usage and research projects in the Visual Autoregressive Modeling (VAR) series, including project names, dates, GitHub links, conference information, and brief descriptions of features or tasks.
 
-|**Name** | **Date** | **Conference** | **GitHub/Link** | **Brief Description** | 
+| **Name** | **Date** | **Conference** | **GitHub/Link** | **Brief Description** | 
 |---------|---------|----------------|----------------------------- |
 | **MVAR** | 2025-05-19 | ICLR(Under review) | [GitHub](https://github.com/LabShuHangGU/MVAR) | MVAR: Visual Autoregressive Modeling with Scale and Spatial Markovian Conditioning |
 | **EAR** | 2025-05-12 | ICML 2025 | [GitHub](https://github.com/shaochenze/EAR) | Continuous Visual Autoregressive Generation via Score Maximization |
